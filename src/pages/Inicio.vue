@@ -1,3 +1,3 @@
 <template>
-    <h2>Inicio</h2>
+    <h2>Inicio (falta este modulo)</h2>
   </template>
