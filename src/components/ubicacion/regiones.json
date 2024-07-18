@@ -1,0 +1,152 @@
+{
+  "regiones": [
+    {
+      "nombre": "LA LIBERTAD",
+      "provincias": [
+        {
+          "nombre": "ASCOPE",
+          "distritos": [
+            "ASCOPE",
+            "CASA GRANDE",
+            "CHICAMA",
+            "CHOCOPE",
+            "MAGDALENA DE CAO",
+            "PAIJAN",
+            "RAZURI",
+            "SANTIAGO DE CAO"
+          ]
+        },
+        {
+          "nombre": "BOLIVAR",
+          "distritos": [
+            "BAMBAMARCA",
+            "BOLIVAR",
+            "CONDORMARCA",
+            "LONGOTEA",
+            "UCHUMARCA",
+            "UCUNCHA"
+          ]
+        },
+        {
+          "nombre": "CHEPEN",
+          "distritos": [
+            "CHEPEN",
+            "PACANGA",
+            "PUEBLO NUEVO"
+          ]
+        },
+        {
+          "nombre": "GRAN CHIMU",
+          "distritos": [
+            "CASCAS",
+            "LUCMA",
+            "MARMOT",
+            "SAYAPULLO"
+          ]
+        },
+        {
+          "nombre": "JULCAN",
+          "distritos": [
+            "CALAMARCA",
+            "CARABAMBA",
+            "HUASO",
+            "JULCAN"
+          ]
+        },
+        {
+          "nombre": "OTUZCO",
+          "distritos": [
+            "AGALLPAMPA",
+            "CHARAT",
+            "HUARANCHAL",
+            "LA CUESTA",
+            "MACHE",
+            "OTUZCO",
+            "PARANDAY",
+            "SALPO",
+            "SINSICAP",
+            "USQUIL"
+          ]
+        },
+        {
+          "nombre": "PACASMAYO",
+          "distritos": [
+            "GUADALUPE",
+            "JEQUETEPEQUE",
+            "PACASMAYO",
+            "SAN JOSE",
+            "SAN PEDRO DE LLOC"
+          ]
+        },
+        {
+          "nombre": "PATAZ",
+          "distritos": [
+            "BULDIBUYO",
+            "CHILLIA",
+            "HUANCASPATA",
+            "HUAYLILLAS",
+            "HUAYO",
+            "ONGON",
+            "PARCOY",
+            "PATAZ",
+            "PIAS",
+            "SANTIAGO DE CHALLAS",
+            "TAURIJA",
+            "TAYABAMBA",
+            "URPAY"
+          ]
+        },
+        {
+          "nombre": "SANCHEZ CARRION",
+          "distritos": [
+            "CHUGAY",
+            "COCHORCO",
+            "CURGOS",
+            "HUAMACHUCO",
+            "MARCABAL",
+            "SANAGORAN",
+            "SARIN",
+            "SARTIMBAMBA"
+          ]
+        },
+        {
+          "nombre": "SANTIAGO DE CHUCO",
+          "distritos": [
+            "ANGASMARCA",
+            "CACHICADAN",
+            "MOLLEBAMBA",
+            "MOLLEPATA",
+            "QUIRUVILCA",
+            "SANTA CRUZ DE CHUCA",
+            "SANTIAGO DE CHUCO",
+            "SITABAMBA"
+          ]
+        },
+        {
+          "nombre": "TRUJILLO",
+          "distritos": [
+            "EL PORVENIR",
+            "FLORENCIA DE MORA",
+            "HUANCHACO",
+            "LA ESPERANZA",
+            "LAREDO",
+            "MOCHE",
+            "POROTO",
+            "SALAVERRY",
+            "SIMBAL",
+            "TRUJILLO",
+            "VICTOR LARCO HERRERA"
+          ]
+        },
+        {
+          "nombre": "VIRU",
+          "distritos": [
+            "CHAO",
+            "GUADALUPITO",
+            "VIRU"
+          ]
+        }
+      ]
+    }
+  ]
+}

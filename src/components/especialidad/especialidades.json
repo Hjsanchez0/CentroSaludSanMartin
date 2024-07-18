@@ -1,0 +1,30 @@
+{
+  "especialidades": [
+    {
+      "nombre": "Medicina General",
+      "especialistas": ["ALEJANDRO GOMEZ MARTINEZ", "EMILIO TORRES MORALES"]
+    },
+    {
+      "nombre": "Enfermeria",
+      "especialistas": ["BEATRIZ SANCHEZ LOPEZ"]
+    },
+    {
+      "nombre": "Nutricion",
+      "especialistas": ["FERNANDA RUIZ GONZALEZ", "HELENA JIMENEZ CASTILLO"]
+    },
+    {
+      "nombre": "Obstetricia",
+      "especialistas": ["KARLA VEGA MENDOZA", "MARIA HERNANDEZ FLORES"]
+    },
+    {
+      "nombre": "Odontologia",
+      "especialistas": ["IGNACIO ORTEGA NAVARRO"]
+    },
+    {
+      "nombre": "Psicologia",
+      "especialistas": ["NICOLAS VAZQUEZ RIOS"]
+    }
+  ]
+}
+
+  
