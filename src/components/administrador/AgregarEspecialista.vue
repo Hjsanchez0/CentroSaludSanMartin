@@ -289,7 +289,7 @@ export default {
                 fechaRegistro: currentDate
             };
 
-            fetch('http://192.168.18.9:3000/cs-san-martin/specialist/registro', {
+            fetch('http://192.168.18.79:3000/cs-san-martin/specialist/registro', {
                 method: 'POST',
                 headers: {
                     'Authorization': `Bearer ${localStorage.getItem('token')}`,

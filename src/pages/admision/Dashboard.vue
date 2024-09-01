@@ -74,7 +74,7 @@ export default {
     methods: {
         async getUserData() {
             try {
-                const response = await fetch('http://192.168.18.9:3000/cs-san-martin/special', {
+                const response = await fetch('http://192.168.18.79:3000/cs-san-martin/special', {
                     headers: {
                         'Authorization': `Bearer ${localStorage.getItem('token')}`
                     }

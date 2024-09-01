@@ -168,7 +168,7 @@ export default {
                 const documentNumberPac = this.userData.documentNumber;
                 const role = this.userData.role;
 
-                const response = await fetch(`http://192.168.18.9:3000/cs-san-martin/appointments?documentTypePac=${documentTypePac}&documentNumberPac=${documentNumberPac}&role=${role}`, {
+                const response = await fetch(`http://192.168.18.79:3000/cs-san-martin/appointments?documentTypePac=${documentTypePac}&documentNumberPac=${documentNumberPac}&role=${role}`, {
                     headers: {
                         'Authorization': `Bearer ${localStorage.getItem('token')}`
                     }
@@ -247,7 +247,7 @@ export default {
                     throw new Error('No se encontró el token de autenticación');
                 }
 
-                const response = await fetch(`http://192.168.18.9:3000/cs-san-martin/appointments/${this.currentAppointment._id}`, {
+                const response = await fetch(`http://192.168.18.79:3000/cs-san-martin/appointments/${this.currentAppointment._id}`, {
                     method: 'PUT',
                     headers: {
                         'Content-Type': 'application/json',

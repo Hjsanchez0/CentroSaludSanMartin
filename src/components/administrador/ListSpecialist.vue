@@ -223,7 +223,7 @@ export default {
 
         async fetchSpecialist() {
             try {
-                const response = await fetch('http://192.168.18.9:3000/cs-san-martin/specialist', {
+                const response = await fetch('http://192.168.18.79:3000/cs-san-martin/specialist', {
                     headers: {
                         'Authorization': `Bearer ${localStorage.getItem('token')}`
                     }
@@ -309,7 +309,7 @@ export default {
                     throw new Error('No se encontró el token de autenticación');
                 }
 
-                const response = await fetch(`http://192.168.18.9:3000/cs-san-martin/specialist/${this.currentPatient._id}`, {
+                const response = await fetch(`http://192.168.18.79:3000/cs-san-martin/specialist/${this.currentPatient._id}`, {
                     method: 'PUT',
                     headers: {
                         'Content-Type': 'application/json',
@@ -347,7 +347,7 @@ export default {
 
         confirmDelete() {
             const especialistaId = this.currentSpecialist._id;
-            fetch(`http://192.168.18.9:3000/cs-san-martin/specialist/${especialistaId}`, {
+            fetch(`http://192.168.18.79:3000/cs-san-martin/specialist/${especialistaId}`, {
                 method: 'DELETE',
                 headers: {
                     'Authorization': `Bearer ${localStorage.getItem('token')}`

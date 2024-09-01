@@ -374,7 +374,7 @@ export default {
             }
             try {
                 const token = localStorage.getItem('token');
-                const response = await fetch(`http://192.168.18.9:3000/cs-san-martin/specialist/edit/${this.especialista._id}`, {
+                const response = await fetch(`http://192.168.18.79:3000/cs-san-martin/specialist/edit/${this.especialista._id}`, {
                     method: 'PUT',
                     headers: {
                         'Content-Type': 'application/json',

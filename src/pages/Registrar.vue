@@ -284,7 +284,7 @@ export default {
         fechaRegistro: currentDate
       };
 
-      fetch('http://192.168.18.9:3000/cs-san-martin/registro', {
+      fetch('http://192.168.18.79:3000/cs-san-martin/registro', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'

@@ -192,7 +192,7 @@ export default {
         async loadUserData() {
             try {
                 const token = localStorage.getItem('token');
-                const response = await fetch('http://192.168.18.9:3000/cs-san-martin/special', {
+                const response = await fetch('http://192.168.18.79:3000/cs-san-martin/special', {
                     headers: {
                         'Authorization': `Bearer ${token}`
                     }
@@ -229,7 +229,7 @@ export default {
             }
             try {
                 const token = localStorage.getItem('token');
-                const response = await fetch('http://192.168.18.9:3000/cs-san-martin/profile', {
+                const response = await fetch('http://192.168.18.79:3000/cs-san-martin/profile', {
                     method: 'PUT',
                     headers: {
                         'Content-Type': 'application/json',

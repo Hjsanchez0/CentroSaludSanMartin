@@ -170,7 +170,7 @@ export default {
 
         async fetchCitasPatients() {
             try {
-                const response = await fetch('http://192.168.18.9:3000/cs-san-martin/appointments-patients', {
+                const response = await fetch('http://192.168.18.79:3000/cs-san-martin/appointments-patients', {
                     headers: {
                         'Authorization': `Bearer ${localStorage.getItem('token')}`
                     }
@@ -246,7 +246,7 @@ export default {
                         throw new Error('No se encontró el token de autenticación');
                     }
 
-                    const response = await fetch(`http://192.168.18.9:3000/cs-san-martin/appointments-patients/${this.currentAppointment._id}`, {
+                    const response = await fetch(`http://192.168.18.79:3000/cs-san-martin/appointments-patients/${this.currentAppointment._id}`, {
                         method: 'PUT',
                         headers: {
                             'Content-Type': 'application/json',

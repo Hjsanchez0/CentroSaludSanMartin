@@ -333,7 +333,7 @@ export default {
         async loadUserData() {
             try {
                 const token = localStorage.getItem('token');
-                const response = await fetch('http://192.168.18.9:3000/cs-san-martin/special', {
+                const response = await fetch('http://192.168.18.79:3000/cs-san-martin/special', {
                     headers: {
                         'Authorization': `Bearer ${token}`
                     }
@@ -508,7 +508,7 @@ export default {
                 if (!token) {
                     throw new Error('No se encontró el token de autenticación');
                 }
-                const response = await fetch('http://192.168.18.9:3000/cs-san-martin/appointments', {
+                const response = await fetch('http://192.168.18.79:3000/cs-san-martin/appointments', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json',
@@ -544,7 +544,7 @@ export default {
 
         async sugerirEspecialidad() {
             try {
-                const response = await fetch('http://192.168.18.9:3000/cs-san-martin/suggest-specialty', {
+                const response = await fetch('http://192.168.18.79:3000/cs-san-martin/suggest-specialty', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json'
@@ -577,7 +577,7 @@ export default {
                 }
                 const fechaCitaFormatted = this.formatFechaCita(this.fechaCita);
 
-                const response = await fetch('http://192.168.18.9:3000/cs-san-martin/check-appointments', {
+                const response = await fetch('http://192.168.18.79:3000/cs-san-martin/check-appointments', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json',

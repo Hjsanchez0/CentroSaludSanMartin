@@ -188,7 +188,7 @@ export default {
         async fetchPatients() {
             try {
                 const doctor = `${this.userData.nombres} ${this.userData.apellidoPat} ${this.userData.apellidoMat}`;
-                const response = await fetch(`http://192.168.18.9:3000/cs-san-martin/patientsxspecialist?especialidad=${this.userData.role}&doctor=${encodeURIComponent(doctor)}`, {
+                const response = await fetch(`http://192.168.18.79:3000/cs-san-martin/patientsxspecialist?especialidad=${this.userData.role}&doctor=${encodeURIComponent(doctor)}`, {
                     headers: {
                         'Authorization': `Bearer ${localStorage.getItem('token')}`
                     }
@@ -281,7 +281,7 @@ export default {
                     recetaMedica: this.recetaMedica
                 };
 
-                const response = await fetch(`http://192.168.18.9:3000/cs-san-martin/appointmentspatientsxspecialist/${this.currentPatient._id}`, {
+                const response = await fetch(`http://192.168.18.79:3000/cs-san-martin/appointmentspatientsxspecialist/${this.currentPatient._id}`, {
                     method: 'PUT',
                     headers: {
                         'Content-Type': 'application/json',

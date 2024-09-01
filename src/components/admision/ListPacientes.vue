@@ -145,7 +145,7 @@ export default {
     methods: {
         async fetchPatients() {
             try {
-                const response = await fetch('http://192.168.18.9:3000/cs-san-martin/patients', {
+                const response = await fetch('http://192.168.18.79:3000/cs-san-martin/patients', {
                     headers: {
                         'Authorization': `Bearer ${localStorage.getItem('token')}`
                     }
@@ -216,7 +216,7 @@ export default {
         async updatePatient() {
             try {
 
-                const response = await fetch(`http://192.168.18.9:3000/cs-san-martin/update-patients/${this.currentPatient._id}`, {
+                const response = await fetch(`http://192.168.18.79:3000/cs-san-martin/update-patients/${this.currentPatient._id}`, {
                     method: 'PUT',
                     headers: {
                         'Content-Type': 'application/json',
